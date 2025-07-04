@@ -1,5 +1,5 @@
 import React from 'react';
-import heroVideo from '../assets/hero-video.mp4'; // ajusta la ruta según tu estructura
+import heroVideo from '../assets/hero-video.mp4';
 
 const Hero = () => {
   return (
