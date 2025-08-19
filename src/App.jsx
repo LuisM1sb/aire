@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
         <Navbar />
         <Hero />
         <Services />
+        {/* Separador visual */}
+        <div className="h-0.5 bg-gradient-to-r from-blue-600 to-green-600"></div>
         <Contact />
+        <Footer />
       </div>
   )
 }
